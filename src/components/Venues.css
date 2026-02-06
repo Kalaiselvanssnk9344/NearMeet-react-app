@@ -1,0 +1,126 @@
+.venue-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.form-title, .list-title {
+  text-align: center;
+  color: #16423C;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.venue-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.venue-form input,
+.venue-form textarea {
+  padding: 10px;
+  border: 1px solid #c4dad2;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.venue-form input:focus,
+.venue-form textarea:focus {
+  border-color: #6a9c89;
+  box-shadow: 0 0 5px rgba(106,156,137,0.5);
+}
+
+.venue-form textarea {
+  grid-column: span 2;
+  min-height: 80px;
+}
+
+.checkbox-label {
+  grid-column: span 2;
+  font-size: 14px;
+  color: #333;
+}
+
+.submit-btn {
+  grid-column: span 2;
+  padding: 12px;
+  background: #16423C;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #0f2e2a;
+}
+
+.venue-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.venue-table th, .venue-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e9efec;
+  text-align: left;
+}
+
+.venue-table th {
+  background: #f5f9f8;
+  color: #16423C;
+}
+
+.edit-btn, .delete-btn {
+  padding: 6px 12px;
+  margin-right: 6px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.edit-btn {
+  background: #6a9c89;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #52766a;
+}
+
+.delete-btn {
+  background: #d9534f;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #b52b27;
+}
+
+th{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+tr{
+    border-bottom: 2px solid #c4dad2;
+}
+td{
+    font-size: 13px;
+    /* color: #16423C; */
+}
